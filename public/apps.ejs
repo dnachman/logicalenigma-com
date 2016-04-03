@@ -1,0 +1,5 @@
+
+<h1>Apps</h1>
+<% for(var slug in public.mobileapps._data){ %>
+  <h2><a href="/<%= slug %>"><%= public.mobileapps._data[slug].title %></a></h2>
+<% }; %>
