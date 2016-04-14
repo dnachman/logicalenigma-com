@@ -3,8 +3,9 @@ body {
   padding-bottom: 30px;
 }
 
-footer {
-    margin: 50px 0 50px 0;
+.footer {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 
@@ -20,4 +21,25 @@ footer {
 
 .theme-showcase .navbar .container {
   width: auto;
+}
+
+.app-content > .app-image {
+    padding-left: 50px;
+    padding-right: auto;
+}
+
+.app-content > div, .app-content > ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.app-store-icons {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.app-store-icon {
+    margin: 10px 10px 10px 10px;
+    width: 172px;
+    height: 60px;
 }
