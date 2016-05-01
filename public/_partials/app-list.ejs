@@ -1,0 +1,12 @@
+<div class="row app-list">
+    <% for(var app in public.mobileapps._data){ %>
+      <div class="col-sm-6">
+          <h1><a href="<%= public.mobileapps._data[app].url %>"><%= public.mobileapps._data[app].title %></a></h1>
+          <p>
+              <a href="<%= public.mobileapps._data[app].url %>">
+              <img src="<%= public.mobileapps._data[app].thumbnail %>" alt="app-image" width="114" height="114" /></a>
+          </p>
+          <p><%= public.mobileapps._data[app].tagline %></p>
+      </div>
+    <% }; %>
+</div>

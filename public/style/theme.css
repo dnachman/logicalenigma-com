@@ -23,12 +23,19 @@ body {
   width: auto;
 }
 
-.app-content > .app-image {
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-content .app-image {
     padding-left: 50px;
     padding-right: auto;
 }
 
-.app-content > div, .app-content > ul {
+.app-content div, .app-content ul {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -42,4 +49,22 @@ body {
     margin: 10px 10px 10px 10px;
     width: 172px;
     height: 60px;
+}
+
+.app-list {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-list h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-list p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
