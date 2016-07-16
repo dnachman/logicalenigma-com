@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row row-bottom-padded-sm">
+    <div class="col-md-12 section-heading text-center">
+      <h2 class="to-animate">Our Apps</h2>
+    </div>
+  </div>
+  <% for(var app in public.mobileapps._data){ %>
+    <div class="row">
+      <div class="col-md-12 to-animate text-center section-heading app-title">
+        <h3><%= public.mobileapps._data[app].title %></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="box to-animate">
+
+          <img src="<%= public.mobileapps._data[app].thumbnail %>" alt="app-image" width="114" height="114" />
+          <h3><%= public.mobileapps._data[app].tagline %></h3>
+          <div class="text-left">
+            <div><%= public.mobileapps._data[app].description %></div>
+            <!-- bullets -->
+            <br />
+            <div>
+              <ul>
+                <% for(var i in public.mobileapps._data[app].bullets){ %>
+                  <li><%= public.mobileapps._data[app].bullets[i] %></li>
+                <% } %>
+              </ul>
+            </div>
+
+            <div class="app-store-icons text-center">
+              <% if (public.mobileapps._data[app].appStoreLink) { %>
+                <a href="<%= public.mobileapps._data[app].appStoreLink %>" 
+                id="AppStore - <%= public.mobileapps._data[app].slug %>">
+                  <img class="app-store-icon" src="/images/App_Store_Badge.svg" alt="Download on the App <Store></Store>" width="172" height="60" />
+                  </a>
+              <% } %>
+              <% if (public.mobileapps._data[app].playLink) { %>
+                <a href="<%= public.mobileapps._data[app].playLink %>" 
+                id="GooglePlay - <%= public.mobileapps._data[app].slug %>">
+                  <img class="app-store-icon" src="/images/en_generic_rgb_wo_60.png" alt="Get it on Google Play" width="172" height="60" />
+                  </a>
+              <% } %>
+              <% if (public.mobileapps._data[app].amazonLink) { %>
+                  <a href="<%= public.mobileapps._data[app].amazonLink %>"
+                  od="AmazonApp - <%= public.mobileapps._data[app].slug %>">
+                  <img class="app-store-icon" src="/images/amazon-apps-store-us-black.png" alt="Available at Amazon" width="192" height="66" /></a>
+              <% } %>
+            </div>
+          </div>
+        </div>
+              
+      </div>
+    </div>
+
+  <% }; %>
+
+    </div>
+  </div>
+</div>

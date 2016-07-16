@@ -2,13 +2,30 @@
     "currencyconverter": {
         "title": "Currency Converter",
         "tagline": "Easily convert between two currencies.",
+        "description": "Quickly and easily convert between two currencies. Over 150 currencies are supported, and rates are updated hourly. The app will work offline with the last retrieved updates, so it’s perfect for when you’re traveling and don’t have a data connection. The app uses a network connection to retrieve updated rate information. No access to your personal information on your device.",
+        "bullets" : [
+            "Currency Conversions between 150 currencies",
+            "Rate data is updated hourly",
+            "Works offline"
+        ],
         "thumbnail" : "/images/currencyconverter-114.png",
-        "url" : "/currencyconverter"
+        "slug" : "currencyconverter",
+        "appStoreLink" : "https://itunes.apple.com/us/app/currency-converter-logical/id1128236204?mt=8",
+        "playLink" : "https://play.google.com/store/apps/details?id=com.logicalenigma.currencyconverter",
+        "amazonLink" : "http://www.amazon.com/gp/product/B00U554BEG"
     },
     "headachelog": {
        "title": "Headache Log", 
        "tagline": "Track headaches and migraines so you can find patterns.",
+       "description": "Track your headaches so you can gain insight into their frequency, triggers and what remedies work. Anyone who suffers from headache or migraines knows that they can be unpredictable and interrupt your activities. With this headache log, you will be able to easily see how frequently your headaches occur and how severe they are. You can track what remedies and medications work for each type of headache and the severity. Additionally, track any notes before the onset of the headache to help you identify your triggers (such as diet, sleep, stress and other activities). The Headache Log is also a great tool to be able to quantify your headache history and frequency to your medical team when seeking advice.",
+        "bullets" : [
+            "Track when your headaches occur, and their severity",
+            "Enter remedies and medications to see what works",
+            "Write notes related to onset so you can more easily identify triggers"
+        ],
        "thumbnail" : "/images/HeadacheLogIcon_114.png",
-       "url" : "/headachelog"
+       "slug" : "headachelog",
+        "playLink" : "https://play.google.com/store/apps/details?id=com.logicalenigma.headachelog",
+        "amazonLink" : "http://logicalenigma.com/images/amazon-apps-store-us-black.png"
     }
 }
