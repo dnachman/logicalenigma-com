@@ -1,0 +1,24 @@
+{
+  "name": "logicalenigma-com",
+  "version": "1.0.0",
+  "description": "_This is a boilerplate to use with the [Harp Platform](http://harp.io/) and/or the [Harp Server](http://harpjs.com/) (a static web server with built-in pre-processing build with NodeJS)_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnachman/logicalenigma-com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnachman/logicalenigma-com/issues"
+  },
+  "homepage": "https://github.com/dnachman/logicalenigma-com#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.6",
+    "jquery": "^2.2.3"
+  }
+}
