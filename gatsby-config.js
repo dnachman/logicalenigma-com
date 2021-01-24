@@ -3,13 +3,27 @@ module.exports = {
     title: `Logical Enigma`,
     author: {
       name: `David Nachman`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `A playground for ideas`,
     },
     description: `Logical Enigma`,
     siteUrl: `https://www.logicalenigma.com/`,
     social: {
       twitter: `dnachman`,
+      facebook: `dnachman`,
+      snapchat: `dnachman`,
+      instagram: `dnachman`,
+      medium: `dnachman`,
     },
+    contact: {
+      info: ``,
+      email: `david@logicalenigma.com`,
+      tel: ``,
+      address: ``,
+    },
+    menuLinks: [{
+      name: `First Link`,
+      link: `https://www.logicalenigma.com`,
+    }],
   },
   plugins: [
     {
@@ -73,5 +87,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    `gatsby-theme-editorial`,
+    `gatsby-plugin-sass`,
   ],
 }
