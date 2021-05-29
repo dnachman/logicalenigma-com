@@ -44,7 +44,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
-      const slug = post.fields.slug
 
       createPage({
         path: post.fields.slug,
@@ -53,7 +52,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id: post.id,
           previousPostId,
           nextPostId,
-          slug,
         },
       })
     })
